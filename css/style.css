@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 30%; /* 100/3 = 30% */
+    height: auto;
+}
+
+h2 {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.entretenimento h2 {
+    background-color: lightcoral;
+}
+
+.tecnologia h2 {
+    background-color: lightgreen;
+}
