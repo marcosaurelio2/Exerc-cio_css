@@ -5,123 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Meu portal de notícias</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-                <li>
-                    <a href="#entertainment" title="Ir para a seção de entretenimento">Entretenimento</a>
-                </li>
-                <li>
-                    <a href="#technology" title="Ir para a seção de tecnologia">Tecnologia</a>
-                </li>
+            <ul class="menu">
+                <li><a href="#sports" title="Ir para a seção de esportes">Esportes</a></li>
+                <li><a href="#economy" title="Ir para a seção de notícias">Economia</a></li>
+                <li><a href="#entertainment" title="Ir para a seção de entretenimento">Entretenimento</a></li>
+                <li><a href="#technology" title="Ir para a seção de tecnologia">Tecnologia</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Seção de Esportes -->
-    <section id="sports">
+    <section id="sports" class="section sports">
         <h2>Esportes</h2>
         <!-- Artigos de esportes -->
-        <article>
-            <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-            <header>
+        <div class="article">
+            <img src="./css/imagens/futebol.jpg" alt="Bola de futebol no gramado" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Grande clássico na noite de hoje</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-            <header>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
+        <div class="article">
+            <img src="./css/imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Noite do Superbowl</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
     </section>
 
     <!-- Seção de Economia -->
-    <section id="economy">
+    <section id="economy" class="section economy">
         <h2>Economia</h2>
-        <article>
-            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-            <header>
+        <div class="article">
+            <img src="./css/imagens/dolares.jpg" alt="Muitos dólares" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Dólar em alta de 0.50%</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-            <header>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
+        <div class="article">
+            <img src="./css/imagens/euro.jpg" alt="Várias notas de euro" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Euro em queda de 0.40%</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
     </section>
 
     <!-- Seção de Entretenimento -->
-    <section id="entertainment" class="entretenimento">
+    <section id="entertainment" class="section entertainment">
         <h2>Entretenimento</h2>
-        <article>
-            <!-- Imagem do lançamento de filme alterada -->
-            <img src="https://mobdica.com/wp-content/uploads/2020/12/Batman.jpg" alt="Lançamento de filme Batman" />
-            <header>
+        <div class="article">
+            <img src="https://mobdica.com/wp-content/uploads/2020/12/Batman.jpg" alt="Lançamento de filme Batman" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Lançamento de filme esperado</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <!-- Imagem de pessoas em um show mantida -->
-            <img src="https://th.bing.com/th/id/OIP.JzDiT3o5XTjjZFa_7_9A3QHaEb?w=265&h=180&c=7&r=0&o=5&pid=1.7" alt="Pessoas em um show" />
-            <header>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
+        <div class="article">
+            <img src="https://th.bing.com/th/id/OIP.JzDiT3o5XTjjZFa_7_9A3QHaEb?w=265&h=180&c=7&r=0&o=5&pid=1.7" alt="Pessoas em um show" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Festival de música reúne milhares</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
     </section>
 
     <!-- Seção de Tecnologia -->
-    <section id="technology" class="tecnologia">
+    <section id="technology" class="section technology">
         <h2>Tecnologia</h2>
-        <article>
-            <!-- Imagem de robótica alterada -->
-            <img src="https://th.bing.com/th/id/R.4c8129e7c0b8be9d6028dd20a2e7ac7c?rik=pnftQVySMB580g&riu=http%3a%2f%2fpreparatialfuturo.confindustria.it%2fwp-content%2fuploads%2f2020%2f09%2fRobotica-intelligente.jpg&ehk=CS19Tb9yMCFLZq%2f2qD3Uxo4wN%2fVP4fASsWPLXE58HS4%3d&risl=&pid=ImgRaw&r=0" alt="Robótica avançada" />
-            <header>
+        <div class="article">
+            <img src="https://th.bing.com/th/id/R.4c8129e7c0b8be9d6028dd20a2e7ac7c?rik=pnftQVySMB580g&riu=http%3a%2f%2fpreparatialfuturo.confindustria.it%2fwp-content%2fuploads%2f2020%2f09%2fRobotica-intelligente.jpg&ehk=CS19Tb9yMCFLZq%2f2qD3Uxo4wN%2fVP4fASsWPLXE58HS4%3d&risl=&pid=ImgRaw&r=0" alt="Robótica avançada" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Avanços em robótica surpreendem</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="https://th.bing.com/th/id/OIP.-2Cky-y6BoZ1wt3hEgeNIQHaFj?rs=1&pid=ImgDetMain" alt="Dispositivos tecnológicos" />
-            <header>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
+        <div class="article">
+            <img src="https://th.bing.com/th/id/OIP.-2Cky-y6BoZ1wt3hEgeNIQHaFj?rs=1&pid=ImgDetMain" alt="Dispositivos tecnológicos" class="img">
+            <header class="article-header">
                 <time>13/07/2022 às 12:35</time>
             </header>
             <h3>Novas tendências em tecnologia</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+            <a href="#" class="read-more" title="Leia a notícia completa">Ler mais</a>
+        </div>
     </section>
 </body>
 </html>

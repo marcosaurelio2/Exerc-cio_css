@@ -1,29 +1,123 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 section {
-    margin-bottom: 40px;
-}
-
-article {
+    padding: 20px;
     margin-bottom: 20px;
 }
 
-img {
-    width: 30%; /* 100/3 = 30% */
+.article {
+    margin-bottom: 20px;
+}
+
+.article img {
+    max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
-h2 {
-    background-color: lightblue;
+.article-header {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.read-more {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Estilização para a seção de Esportes */
+.sports {
+    background-color: #ffe5e5; /* Cor suave vermelha para esportes */
+}
+
+.sports h2 {
+    color: #cc0000; /* Cor forte para o título */
+}
+
+.sports .article {
+    border: 1px solid #cc0000;
     padding: 10px;
+    background-color: #fff;
 }
 
-.entretenimento h2 {
-    background-color: lightcoral;
+/* Estilização para a seção de Economia */
+.economy {
+    background-color: #e5ffe5; /* Cor suave verde para economia */
 }
 
-.tecnologia h2 {
-    background-color: lightgreen;
+.economy h2 {
+    color: #009900; /* Cor forte para o título */
+}
+
+.economy .article {
+    border: 1px solid #009900;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Estilização para a seção de Entretenimento */
+.entertainment {
+    background-color: #e5e5ff; /* Cor suave azul para entretenimento */
+}
+
+.entertainment h2 {
+    color: #3333cc; /* Cor forte para o título */
+}
+
+.entertainment .article {
+    border: 1px solid #3333cc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Estilização para a seção de Tecnologia */
+.technology {
+    background-color: #f0e5ff; /* Cor suave roxa para tecnologia */
+}
+
+.technology h2 {
+    color: #660099; /* Cor forte para o título */
+}
+
+.technology .article {
+    border: 1px solid #660099;
+    padding: 10px;
+    background-color: #fff;
 }
